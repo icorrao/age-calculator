@@ -27,11 +27,11 @@ body {
 }
 
 .container {
-  padding: 60px;
+  padding: 50px 60px;
 }
 
 main {
-  width: 935px;
+  width: 840px;
   border-radius: 20px;
   border-bottom-right-radius: 200px;
   background-color: #ffffff;
@@ -42,7 +42,7 @@ main {
 form {
   display: flex;
   gap: 30px;
-  margin-bottom: 55px;
+  margin-bottom: 20px;
 }
 
 label {
@@ -66,8 +66,8 @@ input {
 }
 
 .text-input {
-  width: 180px;
-  height: 80px;
+  width: 160px;
+  height: 70px;
   border: 1px solid var(--Light-grey);
   border-radius: 10px;
   padding-left: 25px;
@@ -90,8 +90,8 @@ input {
 form > img {
   background-color: var(--Purple);
   position: relative;
-  top: 150px;
-  left: 85px;
+  top: 105px;
+  left: 50px;
   border-radius: 50%;
   padding: 25px;
   width: 100px;
@@ -106,7 +106,7 @@ form > img:hover {
 
 .hr {
   border: 1px solid var(--Light-grey);
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
 
 .error {
@@ -129,7 +129,7 @@ form > img:hover {
 }
 
 .age-indicator-row > span {
-  font-size: 7.1rem;
+  font-size: 6.7rem;
   font-weight: 900;
   font-style: italic;
 }
@@ -160,7 +160,7 @@ form > img:hover {
 
   form {
     gap: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
   }
   label {
     font-size: 0.8rem;
@@ -181,10 +181,10 @@ form > img:hover {
   form > img {
     position: absolute;
     display: block;
-    top: 247px;
-    left: 150px;
-    height: 65px;
-    width: 65px;
+    top: 254px;
+    left: 160px;
+    height: 50px;
+    width: 50px;
     padding: 18px;
   }
 
