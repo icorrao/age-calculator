@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Muestra el sitio correctamente según el dispositivo del usuario -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" id="form">
+          <div class="input-container">
+            <label for="day" id="day-label">DAY</label>
+            <input
+              type="text"
+              name="day"
+              id="day"
+              placeholder="DD"
+              class="text-input"
+            />
+            <span class="error-message hidden" id="day-error">hidden</span>
+          </div>
+
+          <div class="input-container">
+            <label for="month" id="month-label">MONTH</label>
+            <input
+              type="text"
+              name="month"
+              id="month"
+              placeholder="MM"
+              class="text-input"
+            />
+            <span class="error-message hidden" id="month-error">hidden</span>
+          </div>
+
+          <div class="input-container">
+            <label for="year" id="year-label">YEAR</label>
+            <input
+              type="text"
+              name="year"
+              id="year"
+              placeholder="YYYY"
+              class="text-input"
+            />
+            <span class="error-message hidden" id="year-error">hidden</span>
+          </div>
+
+          <img
+            src="./assets/images/icon-arrow.svg"
+            alt="Submit"
+            onclick="submitForm()"
+            id="submit"
+          />
+        </form>
+        <hr class="hr" />
+        <div class="age-indicator">
+          <div class="age-indicator-row">
+            <span id="years">--</span><span>years</span>
+          </div>
+          <div class="age-indicator-row">
+            <span id="months">--</span><span>months</span>
+          </div>
+          <div class="age-indicator-row">
+            <span id="days">--</span><span>days</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      <span
+        >Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/icorrao">Ignacio Corrao</a>.</span
+      >
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
